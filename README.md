@@ -1,8 +1,12 @@
 # ENEL645_PlantDiseaseDetection
 
-This repository is for Team 2's ENEL 645 final project. In this project the team utilized existing datasets to develop a plant health detection algorithm with deep learning. The deep learning architecture is TensorFlow, written with Python code, while the data will be displayed with Keras. The dataset used was obtained from the Kaggle PlantVillage datset.
+## Project Overview
 
-Please use the outline below to navigate through files in this repository.
+ In this project the team utilized existing datasets to develop a plant health detection algorithm with deep learning. The deep learning architecture is TensorFlow, written with Python code, while the data will be displayed with Keras. The dataset used was obtained from the Kaggle PlantVillage datset.
+
+ We utilized Convolutional Neural Networks to classify the health of potato, tomato, and bell pepper plants and various preprocessing methods. In the end we achieved an accuracy of 99% in the PlantVillage dataset and varying success (as low as 25% and as high as 80%) with a generalized dataset. We believe that with a larger generalized dataset for training we could have improved the results, as the PlantVillage dataset used for training was very uniform.
+
+
 ## ENEL 645 Final Project Files
 The notebook files for the tomato, bell pepper and potato models are stored in Models_folder.
 The Generalized dataset which contains images from the internet is stored in the General_Validation_Dataset folder. These images are not the Kaggle dataset. 
@@ -39,7 +43,8 @@ The Kaggle dataset was too large to put into this repository. Please use the URL
         * Bell_Pepper_Colab.h5
         * Potato_Colab.h5
         * Tomato_Colab.h5
-* TALC_Folder
+* Plant-Identification.pdf
+* TALC_Folder - Files for using the University of Calgary's clusters
     * f1_model
         * train_bellpepper_f1.py
         * train_bellpepper_f1_venv.slurm
